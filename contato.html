@@ -39,11 +39,11 @@
       </div>
     </div>
 
-    <div class="contato contriner">
+    <div class="contato container">
       <section class="contato-dados" aria-label="Endereço">
         <h2 class="font-1-m cor-0">Loja Online</h2>
         <div class="contato-endereco font-2-s cor-4">
-          <p>Rua Açi Perto, 35</p>
+          <p>Rua Ali Perto, 35</p>
           <p>Rio de Janeiro -RJ</p>
           <p>Brasil - Terra - Vita Láctea</p>
         </div>
@@ -72,14 +72,18 @@
           </div>
           <div>
             <label for="telefone">Telefone</label>
-            <input type="text" id="nome" name="nome" placeholder="contato@email.com">
+            <input type="text" id="telefone" name="telefone" placeholder="(21) 0000-0000">
           </div>
-          <div>
+          <div class="col-2">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="contato@email.com">
+          </div>
+          <div class="col-2">
             <label for="mensagem">Mensagem</label>
-            <textarea type="mensagem" id="nome" name="nome" placeholder="O que você precisa?"></textarea>
+            <textarea type="mensagem" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
           </div>
+          <button class="botao col-2">Enviar Mensagem</button>
         </form>
-        <button class="botao">Enviar Mensagem</button>
       </section>
     </div>
   </main>
